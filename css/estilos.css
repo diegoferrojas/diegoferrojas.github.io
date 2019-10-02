@@ -1,0 +1,49 @@
+#fondo
+{
+    background-color: rgb(0, 0, 0);  
+    width: 450px;
+    border-radius: 10%;
+    border-top: orange 5px solid;
+    border-right: gray 10px solid;
+    border-bottom: blue 10px solid;
+    border-left: red 5px solid;
+    overflow: auto;
+}
+
+#titulo
+{
+    color: white;
+    text-align: center;
+    float: inline-start;
+}
+
+#imagen
+{
+    margin: 5px;  
+    float: left;
+    background-color: rgb(8, 7, 7);   
+}
+
+#foto
+{    
+    width:150%;
+    height:auto;    
+    margin:15%;    
+    background-color: white;    
+}
+
+#integrantes
+{
+    border-radius: 10px;
+    margin: 10px;   
+    color: white;
+    background-color: blue;    
+    float:right;     
+}
+li{
+    margin: 1%;    
+}
+
+.tituloInterno{
+    text-align: center
+}
