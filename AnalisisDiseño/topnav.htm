@@ -6,6 +6,12 @@
 <script language="javascript" src="scripts/common.js" type="text/javascript"></script><script language="JavaScript" src="scripts/scripts.js" type="text/javascript"></script><script language="JavaScript" src="scripts/topnav.js" type="text/javascript"></script><script type="text/javascript" language="JavaScript">
 var feedback_url= 'http://www.published_website.com/feedback';
 </script>
+	<script>
+        function regresarAlIndice() {
+            // Simula el comportamiento del botón "Atrás" del navegador
+            window.history.back();
+        }
+    </script>
 <style type="text/css">
 
 .banner {
@@ -32,7 +38,7 @@ var feedback_url= 'http://www.published_website.com/feedback';
 </table>
 	<div style="text-align: center; margin-top: 20px;">
 	<!-- Corregido el enlace para apuntar correctamente a la página de inicio -->
-	<td><a href="../index.html">Inicio</a></td>
+	<li><a href="#" onclick="regresarAlIndice()">Regresar al Índice</a></li>
 	</div>
 </td>
 </tr>
