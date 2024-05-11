@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Artifact: Modelo desplegado</title>
+<meta name="uma.type" content="Artifact">
+<meta name="uma.name" content="Deployment_Model">
+<meta name="uma.presentationName" content="Modelo desplegado">
+<meta name="element_type" content="Artifact">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_J-KqAAqMEe-zQquRjvk7fw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Artifact: Modelo desplegado</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The purpose of the Deployment Model is to capture the configuration of processing elements, and the connections between
+    processing elements, in the system.&nbsp; The Deployment Model consists of one or
+    more<span>&nbsp;</span><b>nodes</b><span>&nbsp;</span>(processing elements with at least one processor, memory, and
+    possibly other devices),<span>&nbsp;</span><b>devices<span>&nbsp;</span></b>(stereotyped nodes with no processing
+    capability at the modeled level of abstraction), and<span>&nbsp;</span><b>connectors</b>, between nodes, and between
+    nodes and devices. The Deployment Model also maps<span>&nbsp;</span><b>processes</b><span>&nbsp;</span>on to these
+    processing elements, allowing the distribution of behavior across nodes to be represented.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The following roles use the Deployment Model:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        The<span>&nbsp;</span><strong>software architect</strong>, to capture and understand the physical execution
+        environment of the system, and to understand distribution issues.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        The<span>&nbsp;</span><strong>designers<span>&nbsp;</span></strong>(including
+        software<span>&nbsp;</span><i>and</i><span>&nbsp;</span>database designers), to understand the distribution of
+        processing and data in the system.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        The<span>&nbsp;</span><strong>system manager</strong>, to understand the physical environment in which the system
+        executes.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        The<span>&nbsp;</span><b>project manager</b>, in estimating costs, for the Business Case, and for acquisition,
+        installation and maintenance planning.
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Responsible:
+								</span></td><td class="sectionTableCell"><span class="sectionTableCellHeading">Modified By:
+								</span>
+<ul>
+<li>
+<a href="./../../Analysis_Design/roles/Software Architect_E170FB33.html" guid="_oV4QUAqBEe-zQquRjvk7fw">Arquitecto de Software</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Tasks</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Input To:
+								</span>
+<ul>
+<li>
+<a href="./../../Analysis_Design/tasks/Construct Architectural Proof-of-Concept_E9C1FE29.html" guid="_H4sc8AspEe-PSemMSezamg">Construct Architectural Proof-of-Concept</a>
+</li>
+<li>
+<a href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" guid="_ZNw5EAsuEe-PSemMSezamg">Describe Distribution</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Output From:
+								</span>
+<ul>
+<li>
+<a href="./../../Analysis_Design/tasks/Architectural Analysis_BA0A4B6.html" guid="_-x7moAqBEe-zQquRjvk7fw">An&aacute;lisis_arquitect&oacute;nico</a>
+</li>
+<li>
+<a href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" guid="_ZNw5EAsuEe-PSemMSezamg">Describe Distribution</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Process Usage</th><td class="sectionTableCell" colspan="2">
+<ul>
+<li>
+<a href="./../../Analysis_Design/capabilitypatterns/Define a Candidate Architecture_9286F9AB.html" guid="_B8PRkQqlEe-zQquRjvk7fw">Definir arquitectura candidata</a>
+									&nbsp;&gt;&nbsp;
+								<a href="./../../Analysis_Design/workproducts/Deployment_Model_717C1197.html" guid="_J-KqAAqMEe-zQquRjvk7fw">Modelo desplegado</a>
+</li>
+<li>
+<a href="./../../Analysis_Design/capabilitypatterns/Perform Architectural Synthesis_1F6C356D.html" guid="_ymDFEQswEe-PSemMSezamg">Perform Architectural Synthesis</a>
+									&nbsp;&gt;&nbsp;
+								<a href="./../../Analysis_Design/workproducts/Deployment_Model_717C1197.html" guid="_J-KqAAqMEe-zQquRjvk7fw">Modelo desplegado</a>
+</li>
+<li>
+<a href="./../../Analysis_Design/capabilitypatterns/Refine the Architecture_953FA89B.html" guid="_NOpM8Qs0Ee-PSemMSezamg">Refine the Architecture</a>
+									&nbsp;&gt;&nbsp;
+								<a href="./../../Analysis_Design/workproducts/Deployment_Model_717C1197.html" guid="_J-KqAAqMEe-zQquRjvk7fw">Modelo desplegado</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Main Description</th><td class="sectionTableCell"><span style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+The Deployment Model shows the configuration of processing nodes at run-time, the communication links between them, and the
+component instances and objects that reside on them.</span></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

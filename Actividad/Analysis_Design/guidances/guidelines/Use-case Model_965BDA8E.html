@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Use-case Model</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="Use-case Model">
+<meta name="uma.presentationName" content="Use-case Model">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_S5gGsAsjEe-PSemMSezamg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Use-case Model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../Analysis_Design/workproducts/Use-Case_Model_1F2B9540.html" guid="_O01XoAqEEe-zQquRjvk7fw">Modelo de caso de uso</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    A use-case model is a model of the system's intended functions and its surroundings, and serves as a contract between
+    the customer and the developers. Use cases serve as a unifying thread throughout system development. The same use-case
+    model is the result of the Requirements discipline, and is used as input to Analysis & Design and Test disciplines.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The diagram below shows a part of a use-case model for the Recycling-Machine System.
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/md_ucmo2.gif" width="421" height="213" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    A use-case diagram, showing an example of a use-case model with actors and use cases.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    There are many ways to model a system, each of which may serve a different purpose. However, the most important purpose
+    of a use-case model is to communicate the system's behavior to the customer or end user. Consequently, the model must
+    be easy to understand.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The users and any other system that may interact with the system are the actors. Because they represent system users,
+    actors help delimit the system and give a clearer picture of what it is supposed to do. Use cases are developed on the
+    basis of the actors' needs. This ensures that the system will turn out to be what the users expected.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="How the Use-Case Model Evolves" name="How the Use-Case Model Evolves">How the Use-Case Model
+    Evolves</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Both the actors and the use cases are found by using the requirements of customers and potential users as vital
+    information. As they are discovered, the use cases and the actors should be briefly described. Before the use cases are
+    described in detail, the use-case model should be reviewed by the customer to verify that all the use cases and actors
+    are found, and that together they can provide what the customer wants.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In an iterative development environment, you will select a subset of use cases to be detailed in each iteration. See
+    also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/activity/ac_priuc.htm"><u><font size="4"     face="Times New Roman">Activity: Prioritize Use Cases</font></u></a>.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    When the actors and use cases have been found, the flow of events of each use case is described in detail. These
+    descriptions show how the system interacts with the actors and what the system does in each individual case.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Finally, the completed use-case model (including the descriptions of use cases) is reviewed, and the developers and
+    customers use it to agree on what the system should do.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Avoiding Functional Decomposition" name="Avoiding Functional Decomposition">Avoiding Functional
+    Decomposition</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    It is not uncommon that the use-case model degenerates into a functional decomposition of the system. To avoid this,
+    watch for the following symptoms:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        "Small" use cases, meaning that the description of the flow of events is only one or a few sentences.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        "Many" use cases, meaning that the number of use cases is some multiple of a hundred, rather than a multiple of
+        ten.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Use-case names that are constructions like "do this operation on this particular data" or "do this function with
+        this particular data". For example, "Enter Personal Identification Number in an ATM machine" should not be modeled
+        as a separate use case for the ATM machine, since no one would use the system to do just this. A use case is a
+        complete flow of events that results in something of value to an actor.
+    </li>
+</ul>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    To avoid functional decomposition, you should make sure that the use-case model helps answer questions like:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        What is the context of the system?
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Why is the system built?
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        What does the user want to achieve when using the system?
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        What value does the system add to the users?
+    </li>
+</ul>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Non-Functional Requirements" name="Non-Functional Requirements">Non-Functional
+    Requirements</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    It is quite easy to see that use cases are a very good way of capturing functional requirements on a system. But what
+    about the non-functional requirements? What are they and where are they captured?
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Non-functional requirements are often categorized as usability-, reliability, performance, and
+    substitutability-requirements (see also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/workflow/requirem/co_req.htm"><u><font size="4"     face="Times New Roman">Concepts: Requirement</font></u></a>). They are often requirements that specify need of
+    compliance with any legal and regulatory requirements. They can also be design constraints due to the operating system
+    used, the platform environment, compatibility issues, or any application standards that apply. In general, you can say
+    that any requirement that does not allow for more than one design option should be regarded as a design constraint.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Many non-functional requirements apply to an individual use case and are captured within the properties of that use
+    case. In that case, they are captured within the flow of events of the use case, or as a special requirement of the use
+    case (see<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_uc.htm"><u><font size="4"     face="Times New Roman">Guidelines: Use Case</font></u></a>).
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the Recycling-Machine System, a non-functional requirement specific to the Return Deposit Items use case could be:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The machine has to be able to recognize deposit items with a reliability of more than 95 percent.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Often the non-functional requirements apply to the whole system. Such requirements are captured in the Supplementary
+    Specifications (see<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/artifact/ar_sspec.htm"><u><font size="4"     face="Times New Roman">Artifact: Supplementary Specifications</font></u></a>).
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the Recycling-Machine System, a non-functional requirement that applies to the whole system could be:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The machine will allow only one user at a time.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="The What vs. How Dilemma" name="The What vs. How Dilemma">The What Versus How Dilemma</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    One of the more difficult things is to learn how to determine at what level of detail the use cases should "start and
+    end". Where does features start and use cases begin, and where does use cases end and design begin? We often say that
+    use cases or software requirements should state "what" the system does, but not "how" it does it. Consider the
+    following graph:
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/ucm2.gif" width="382" height="196" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    One person's destination is another's starting point.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Depending on your background, you will use a different context to decide what you think is "what" and what is "how".
+    This needs to be taken into consideration when determining whether or not a certain detail should be left out of the
+    use-case model.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Concrete and Abstract Use Cases" name="Concrete and Abstract Use Cases"></a><a id="XE_abstract_use_case__description_of" name="XE_abstract_use_case__description_of">Concrete and Abstract Use
+    Cases</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    There is a distinction between concrete and abstract use cases.
+    A<span>&nbsp;</span><strong>concrete</strong><i><span>&nbsp;</span></i>use case is initiated by an actor and
+    constitutes a complete flow of events. "Complete" means that an instance of the use case performs the entire operation
+    called for by the actor.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    An<span>&nbsp;</span><strong>abstract</strong><i><span>&nbsp;</span></i>use case is never instantiated in itself.
+    Abstract use cases are included in (see<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_incl.htm"><u><font size="4"     face="Times New Roman">Guidelines: Include-Relationship</font></u></a>), extend into (see<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_exrel.htm"><u><font     size="4" face="Times New Roman">Guidelines: Extend-Relationship</font></u></a>), or generalize
+    (see<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_ucgen.htm"><u><font size="4"     face="Times New Roman">Guidelines: Use-Case-Generalization</font></u></a>) other use cases. When a concrete use case is
+    initiated, an instance of the use case is created. This instance also exhibits the behavior specified by its associated
+    abstract use cases. Thus, no separate instances are created from abstract use cases.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The distinction between the two is important, because it is concrete use cases the actors will "see" and initiate in
+    the system.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    You indicate that a use case is abstract by writing its name in italics.
+</p>
+<h5 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example:
+</h5>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/ucmex3.gif" width="213" height="165" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    The use case Create Task is included in the use case Register Order. Create Task is an abstract use case.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the Depot-Handling System the abstract use case, Create Task, is included in the use case Register Order. When
+    Register Order is initiated, an instance of Register Order is created that, apart from following Register Order's flow
+    of events, also follows the flow of events described in the included use case, Create Task. Create Task is never
+    performed by itself, always as a part of Register Order (or any other use cases in which it is included). Create Task
+    is therefore an abstract use case.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Structuring the Use-Case Model" name="Structuring the Use-Case Model">Structuring the Use-Case
+    Model</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    There are three main reasons for structuring the use-case model:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        To make the use cases easier to understand.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        To partition out common behavior described within many use cases
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        To make the use-case model easier to maintain.
+    </li>
+</ul>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Structuring is, however, not the first thing you do. There is no point in structuring the use cases until you know a
+    bit more about their behavior, beyond a one sentence brief description. You should at least have established a
+    step-by-step outline to the flow of events of the use case, to make sure that you decisions are based on an accurate
+    enough understanding of the behavior.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    To structure the use cases, we have three kinds of relationships. You will use these relationships to factor out pieces
+    of use cases that can be reused in other use cases, or that are specializations or options to the use case. The use
+    case that represents the modification is called the<span>&nbsp;</span><strong>addition use case</strong>. The use case
+    that is modified is called the<span>&nbsp;</span><strong>base use case</strong>.
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        If there is a part of a base use case that represents a function of which the use case only depends on the result,
+        not the method used to produce the result, you can factor that part out to an addition use case. The addition is
+        explicitly inserted in the base use case, using the include-relationship. See also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_incl.htm"><u>Guidelines:
+        Include-Relationship</u></a>.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        If there is a part of a base use case that is optional, or not necessary to understand the primary purpose of the
+        use case, you can factor that part out to an addition use case in order to simplify the structure of the base use
+        case. The addition is implicitly inserted in the base use case, using the extend-relationship. See
+        also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_exrel.htm"><u>Guidelines:
+        Extend-Relationship</u></a>.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        If there are use cases that have commonalties in behavior and structure and similarities in purpose, their common
+        parts can be factored out to a base use case (parent) that is inherited by addition use cases (children). The child
+        use cases can insert new behavior and modify existing behavior in the structure they inherit from the parent use
+        case. See also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_ucgen.htm"><u>Guidelines:
+        Use-Case-Generalization</u></a>.
+    </li>
+</ul>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    You can use actor-generalization to show how actors are specializations of one another. See also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_actgn.htm"><u><font     size="4" face="Times New Roman">Guidelines: Actor-Generalization</font></u></a>.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Consider part of the use-case model for an Order Management System.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    It is useful to separate ordinary Customer from Internet Customer, since they have slightly different properties.
+    However, since Internet Customer does exhibit all properties of a Customer, you can say that Internet Customer is a
+    specialization of Customer, indicated with an actor-generalization.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The concrete use cases in this diagram are Phone Order (initiated by the Customer actor) and Internet Order (initiated
+    by Internet Customer). These use cases are both variations of the more general Place Order use case, which in this
+    example is abstract. The Request Catalog use case represents an optional segment of behavior that is not part of the
+    primary purpose of Place Order. It has been factored out to an abstract use case to simplify the Place Order use case.
+    The Supply Customer Data use case represents a segment of behavior that was factored out since it is a separate
+    function of which only the result is affecting the Place Order use case. The Supply Customer Data use case can also be
+    reused in other use cases. Both Request Catalog and Supply Customer Data are abstract in this example.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/ucmex2.gif" width="354" height="366" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    This use-case diagram shows part of the use-case model for an Order Management System.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The following table shows a more detailed comparison between the three different use-case relationships:
+</p>
+<div style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <center>
+        <table cellpadding="2" width="85%" border="1">
+            <tbody>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        <strong>Question</strong>
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        <strong>Extend</strong>
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        <strong>Include</strong>
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        <strong>Generalization</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        What is the direction of the relationship?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        The addition use case references the base use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        The base use case references the addition use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        The addition use case (child) references the base use case (parent).
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Does the relationship have multiplicity?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes, on the addition side.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. If you want to include the same segment of behavior more than once, that needs to be stated in
+                        the base use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Does the relationship have a condition?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. If you want to express a condition on the inclusion you need to say it explicitly in the base
+                        use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Is the addition use case abstract?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Often yes, but not necessarily.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Often no, but it can be.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Is the base use case modified by the addition?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        The extension implicitly modifies the behavior of the base use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        The inclusion explicitly modifies the effect of the base use case.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        If the base use case (parent) is instantiated, it is unaffected by the child. To obtain the effects
+                        of the addition, the addition use case (child) must be instantiated.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Does the base use case have to be complete and meaningful?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Together with the additions, yes.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        If it is abstract, no.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Does the addition use case have to be complete and meaningful?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Together with the base use case (parent), yes.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Can the addition use case access attributes of the base use case?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. The inclusion is encapsulated, and only "sees" itself.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Yes, by the normal mechanisms of inheritance.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        Can the base use case access attributes of the addition use case?
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. The base use case must be well-formed in the absence of the addition.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. The base use case only knows about the effect of the addition. The addition is encapsulated.
+                    </td>
+                    <td style="VERTICAL-ALIGN: top" bordercolorlight="#808080" bordercolor="#808080"                     bordercolordark="#808080">
+                        No. The base use case (parent) must in this sense be well-formed in the absence of the addition
+                        (child).
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</div>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Another aspect of organizing the use-case model for easier understanding is to group the use cases into packages. The
+    use-case model can be organized as a hierarchy of use-case packages, with "leaves" that are actors or use cases. See
+    also<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_ucpkg.htm"><u><font size="4"     face="Times New Roman">Guidelines: Use-Case Package</font></u></a>.
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/md_ucmo6.gif" width="181" height="235" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    This graph shows the use-case model hierarchy. Arrows indicate possible ownership.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Use Cases Are Always Related to Actors" name="Use Cases Are Always Related to Actors">Are Use Cases Always
+    Related to Actors?</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The execution of each use case includes communication with one or more actors. A use case instance is always started by
+    an actor asking the system to do something. This implies that every use case should have communicates-associations with
+    actors. The reason for this rule is to enforce the system to provide only the functionality that users need, and
+    nothing else. Having use cases that no one requests is an indication that something is wrong in the use-case model or
+    in the requirements.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    However, there are some exceptions to this rule:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        If a use case is abstract (not separately instantiable), its behavior may not include interaction with any actor.
+        In that case, there will not be any communication-associations to actors from that abstract use case.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        A child use case in a generalization-relationship does not need to have an actor associated with it if the parent
+        use case describes all actor communication.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        A base use case in an include-relationship does not need to have an actor associated with it if the inclusion use
+        case describes all actor communication.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        A use case may be initiated according to a schedule (for example, once a week or once a day), which means the
+        system clock is the initiator. The system clock is internal to the system – and the use case is not initiated by an
+        actor, but by an internal system event. If no other actor interaction occurs in the use case, it will not have any
+        associations to actors. However, for clarity, you can use a fictive actor "Time" to show how the use case is
+        initiated in your use-case diagrams.
+    </li>
+</ul>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="The Survey Description" name="The Survey Description">The Survey Description</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The survey description of the use-case model should:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        State which are the primary use cases of the system (the reason the system is built).
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Summarize important technical facts about the system.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Point out system delimitations – things that the system is not supposed to do.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Summarize the system's environment, for example, target platforms and existing software.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Describe any sequences in which use cases are normally performed in the system.
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        Specify functionality not handled by the use-case model.
+    </li>
+</ul>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example:
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <font color="#000000">Following is a sample survey description of the Recycling Machine's use-case model:</font>
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    This model contains three actors and three use cases. The primary use case is Recycle Items, which represents the main
+    purpose of the Recycling Machine.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Supporting use cases are:
+</p>
+<ul style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        <p class="example" style="MARGIN-LEFT: 70px">
+            Print Daily Report, which allows an operator to get a report on how many items have been recycled.
+        </p>
+    </li>
+    <li style="LIST-STYLE-IMAGE: url(images/bullet1.gif)">
+        <p class="example" style="MARGIN-LEFT: 70px">
+            Administer Deposit Item, which allows an operator to change refund value for a type of deposit item, or add new
+            deposit item types.
+        </p>
+    </li>
+</ul>
+<span style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+&nbsp;</span><br style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial' />
+
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/copyrite/copyrite.htm"><font size="2"     face="Arial"><small><small><u>Copyright&nbsp; &copy; 1987 - 2001 Rational Software
+    Corporation</u></small></small></font></a>
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

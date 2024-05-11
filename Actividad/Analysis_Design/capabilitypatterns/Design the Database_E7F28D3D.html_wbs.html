@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Design the Database</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="Design the Database">
+<meta name="uma.presentationName" content="Design the Database">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_0Sk7gQs0Ee-PSemMSezamg&path=_0Sk7gQs0Ee-PSemMSezamg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_0Sk7gQs0Ee-PSemMSezamg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Design the Database</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../Analysis_Design/capabilitypatterns/Design the Database_E7F28D3D.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../Analysis_Design/capabilitypatterns/Design the Database_E7F28D3D.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../Analysis_Design/capabilitypatterns/Design the Database_E7F28D3D.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../Analysis_Design/capabilitypatterns/resources/Design the Database_E7F28D3D_Activity.jpeg" alt="Activity diagram: Design the Database" title="Activity diagram: Design the Database" usemap="#Activity_Design the Database"><map name="Activity_Design the Database">
+<area href="./../../Analysis_Design/tasks/Class Design_BC9AFEFF.html" relpath=",_299EAAsxEe-PSemMSezamg" alt="Class Design" title="Class Design" coords="70, 120, 148, 171" shape="rect" guid="_299EAAsxEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/database_design_BE98972F.html" relpath=",_9H1W4AsyEe-PSemMSezamg" alt="Database Design" title="Database Design" coords="220, 120, 320, 171" shape="rect" guid="_9H1W4AsyEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_design_61436785.html" relpath=",_hYqEoAszEe-PSemMSezamg" alt="Review the Design" title="Review the Design" coords="145, 225, 252, 276" shape="rect" guid="_hYqEoAszEe-PSemMSezamg"></area>
+</map>
+</td>
+</tr>
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="ActivityDetail" id="diagram_ActivityDetail" src="./../../Analysis_Design/capabilitypatterns/resources/Design the Database_E7F28D3D_ActivityDetail.jpeg" alt="Activity detail diagram: Design the Database" title="Activity detail diagram: Design the Database" usemap="#ActivityDetail_Design the Database"><map name="ActivityDetail_Design the Database">
+<area href="./../../Analysis_Design/roles/Designer_864373B1.html" relpath=",_KH71kAqCEe-zQquRjvk7fw" alt="Dise&ntilde;ador" title="Dise&ntilde;ador" coords="40, 376, 99, 416" shape="rect" guid="_KH71kAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Class Design_BC9AFEFF.html" relpath=",_299EAAsxEe-PSemMSezamg" alt="Class Design" title="Class Design" coords="119, 376, 241, 416" shape="rect" guid="_299EAAsxEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/Designer_864373B1.html" relpath=",_KH71kAqCEe-zQquRjvk7fw" alt="Dise&ntilde;ador" title="Dise&ntilde;ador" coords="30, 366, 271, 426" shape="rect" guid="_KH71kAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/roles/Database Designer_87082990.html" relpath=",_9uNcYAscEe-PSemMSezamg" alt="Database Designer" title="Database Designer" coords="40, 899, 151, 939" shape="rect" guid="_9uNcYAscEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/database_design_BE98972F.html" relpath=",_9H1W4AsyEe-PSemMSezamg" alt="Database Design" title="Database Design" coords="171, 899, 293, 939" shape="rect" guid="_9H1W4AsyEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/Database Designer_87082990.html" relpath=",_9uNcYAscEe-PSemMSezamg" alt="Database Designer" title="Database Designer" coords="30, 889, 323, 949" shape="rect" guid="_9uNcYAscEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/design_reviewer_571629E1.html" relpath=",_RA5OAAsdEe-PSemMSezamg" alt="Design Reviewer" title="Design Reviewer" coords="40, 1350, 136, 1390" shape="rect" guid="_RA5OAAsdEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_design_61436785.html" relpath=",_hYqEoAszEe-PSemMSezamg" alt="Review the Design" title="Review the Design" coords="156, 1350, 278, 1390" shape="rect" guid="_hYqEoAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/design_reviewer_571629E1.html" relpath=",_RA5OAAsdEe-PSemMSezamg" alt="Design Reviewer" title="Design Reviewer" coords="30, 1340, 308, 1400" shape="rect" guid="_RA5OAAsdEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="124, 11, 236, 62" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="124, 67, 236, 118" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Event_1E53D346.html" relpath=",_d5PukAsfEe-PSemMSezamg" alt="Event" title="Event" coords="124, 123, 236, 163" shape="rect" guid="_d5PukAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Signal_DAA12F00.html" relpath=",_WlcJwAsfEe-PSemMSezamg" alt="Signal" title="Signal" coords="124, 168, 236, 208" shape="rect" guid="_WlcJwAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="124, 213, 236, 264" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Use-Case_Realization_CCB217D6.html" relpath=",_y_l1cAqLEe-zQquRjvk7fw" alt="Realizaci&oacute;n de casos de uso" title="Realizaci&oacute;n de casos de uso" coords="124, 269, 236, 336" shape="rect" guid="_y_l1cAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Class Design_BC9AFEFF.html" relpath=",_299EAAsxEe-PSemMSezamg" alt="Class Design" title="Class Design" coords="114, 1, 246, 346" shape="rect" guid="_299EAAsxEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design Class_3C0E8D44.html" relpath=",_yjDEIAsfEe-PSemMSezamg" alt="Design Class" title="Design Class" coords="153, 456, 207, 507" shape="rect" guid="_yjDEIAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Class Design_BC9AFEFF.html" relpath=",_299EAAsxEe-PSemMSezamg" alt="Class Design" title="Class Design" coords="143, 446, 217, 517" shape="rect" guid="_299EAAsxEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Data model_2181E19B.html" relpath=",_KgpFsAsgEe-PSemMSezamg" alt="Data model" title="Data model" coords="176, 568, 288, 619" shape="rect" guid="_KgpFsAsgEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="176, 624, 288, 675" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="176, 680, 288, 731" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="176, 736, 288, 787" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Use-Case_Realization_CCB217D6.html" relpath=",_y_l1cAqLEe-zQquRjvk7fw" alt="Realizaci&oacute;n de casos de uso" title="Realizaci&oacute;n de casos de uso" coords="176, 792, 288, 859" shape="rect" guid="_y_l1cAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/database_design_BE98972F.html" relpath=",_9H1W4AsyEe-PSemMSezamg" alt="Database Design" title="Database Design" coords="166, 558, 298, 869" shape="rect" guid="_9H1W4AsyEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Data model_2181E19B.html" relpath=",_KgpFsAsgEe-PSemMSezamg" alt="Data model" title="Data model" coords="203, 979, 261, 1030" shape="rect" guid="_KgpFsAsgEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/change_request_A7B19A71.html" relpath=",_Hi0vEAszEe-PSemMSezamg" alt="Change Request" title="Change Request" coords="203, 1035, 261, 1086" shape="rect" guid="_Hi0vEAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/database_design_BE98972F.html" relpath=",_9H1W4AsyEe-PSemMSezamg" alt="Database Design" title="Database Design" coords="193, 969, 271, 1096" shape="rect" guid="_9H1W4AsyEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="161, 1147, 273, 1198" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="161, 1203, 273, 1254" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="161, 1259, 273, 1310" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/review_the_design_61436785.html" relpath=",_hYqEoAszEe-PSemMSezamg" alt="Review the Design" title="Review the Design" coords="151, 1137, 283, 1320" shape="rect" guid="_hYqEoAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/change_request_A7B19A71.html" relpath=",_Hi0vEAszEe-PSemMSezamg" alt="Change Request" title="Change Request" coords="188, 1430, 246, 1481" shape="rect" guid="_Hi0vEAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/review_record_E296D06A.html" relpath=",_ZKGHwAszEe-PSemMSezamg" alt="Review Record" title="Review Record" coords="188, 1486, 246, 1537" shape="rect" guid="_ZKGHwAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_design_61436785.html" relpath=",_hYqEoAszEe-PSemMSezamg" alt="Review the Design" title="Review the Design" coords="178, 1420, 256, 1547" shape="rect" guid="_hYqEoAszEe-PSemMSezamg"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "a7b013e6", parentId: "", relPath: ",_5h45AAs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "1", prefix: "", name: "Class Design", title: "Class Design", url: "./../../Analysis_Design/tasks/Class Design_BC9AFEFF.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "505cc8b1", parentId: "", relPath: ",_5h5gEAs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "2", prefix: "", name: "database_design", title: "Database Design", url: "./../../Analysis_Design/tasks/database_design_BE98972F.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "47f0af28", parentId: "", relPath: ",_5h5gEQs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "3", prefix: "", name: "review_the_design", title: "Review the Design", url: "./../../Analysis_Design/tasks/review_the_design_61436785.html", 
+	predecessors: "1,2", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

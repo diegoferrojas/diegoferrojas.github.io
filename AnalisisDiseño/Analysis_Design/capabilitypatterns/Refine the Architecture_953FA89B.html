@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Refine the Architecture</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="Refine the Architecture">
+<meta name="uma.presentationName" content="Refine the Architecture">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_NOpM8Qs0Ee-PSemMSezamg&path=_NOpM8Qs0Ee-PSemMSezamg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_NOpM8Qs0Ee-PSemMSezamg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Refine the Architecture</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../Analysis_Design/capabilitypatterns/Refine the Architecture_953FA89B.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../Analysis_Design/capabilitypatterns/Refine the Architecture_953FA89B.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../Analysis_Design/capabilitypatterns/Refine the Architecture_953FA89B.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../Analysis_Design/capabilitypatterns/resources/Refine the Architecture_953FA89B_Activity.jpeg" alt="Activity diagram: Refine the Architecture" title="Activity diagram: Refine the Architecture" usemap="#Activity_Refine the Architecture"><map name="Activity_Refine the Architecture">
+<area href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" relpath=",_ZNw5EAsuEe-PSemMSezamg" alt="Describe Distribution" title="Describe Distribution" coords="650, 130, 771, 181" shape="rect" guid="_ZNw5EAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Describe the Run-time Architecture_D8B706E7.html" relpath=",_Kp5nAAsuEe-PSemMSezamg" alt="Describe the Run-time Architecture" title="Describe the Run-time Architecture" coords="475, 130, 678, 181" shape="rect" guid="_Kp5nAAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Elements_890E5AE0.html" relpath=",_Ue3vwAsoEe-PSemMSezamg" alt="Identify Design Elements" title="Identify Design Elements" coords="155, 130, 299, 181" shape="rect" guid="_Ue3vwAsoEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Mechanisms_835256D6.html" relpath=",_Wwi0QAskEe-PSemMSezamg" alt="Identify Design Mechanisms" title="Identify Design Mechanisms" coords="10, 130, 173, 181" shape="rect" guid="_Wwi0QAskEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Incorporate Existing Design Elements_F0CC3A24.html" relpath=",_8TxO8AstEe-PSemMSezamg" alt="Incorporate Existing Design Elements" title="Incorporate Existing Design Elements" coords="290, 130, 508, 181" shape="rect" guid="_8TxO8AstEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_architecture_3A1FE81C.html" relpath=",_PcHmkAszEe-PSemMSezamg" alt="Review the Architecture" title="Review the Architecture" coords="325, 280, 461, 331" shape="rect" guid="_PcHmkAszEe-PSemMSezamg"></area>
+</map>
+</td>
+</tr>
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="ActivityDetail" id="diagram_ActivityDetail" src="./../../Analysis_Design/capabilitypatterns/resources/Refine the Architecture_953FA89B_ActivityDetail.jpeg" alt="Activity detail diagram: Refine the Architecture" title="Activity detail diagram: Refine the Architecture" usemap="#ActivityDetail_Refine the Architecture"><map name="ActivityDetail_Refine the Architecture">
+<area href="./../../Analysis_Design/roles/Software Architect_E170FB33.html" relpath=",_oV4QUAqBEe-zQquRjvk7fw" alt="Arquitecto de Software" title="Arquitecto de Software" coords="40, 347, 172, 387" shape="rect" guid="_oV4QUAqBEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" relpath=",_ZNw5EAsuEe-PSemMSezamg" alt="Describe Distribution" title="Describe Distribution" coords="192, 347, 313, 387" shape="rect" guid="_ZNw5EAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Describe the Run-time Architecture_D8B706E7.html" relpath=",_Kp5nAAsuEe-PSemMSezamg" alt="Describe the Run-time Architecture" title="Describe the Run-time Architecture" coords="333, 342, 459, 393" shape="rect" guid="_Kp5nAAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Elements_890E5AE0.html" relpath=",_Ue3vwAsoEe-PSemMSezamg" alt="Identify Design Elements" title="Identify Design Elements" coords="479, 342, 601, 393" shape="rect" guid="_Ue3vwAsoEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Mechanisms_835256D6.html" relpath=",_Wwi0QAskEe-PSemMSezamg" alt="Identify Design Mechanisms" title="Identify Design Mechanisms" coords="621, 342, 743, 393" shape="rect" guid="_Wwi0QAskEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/Incorporate Existing Design Elements_F0CC3A24.html" relpath=",_8TxO8AstEe-PSemMSezamg" alt="Incorporate Existing Design Elements" title="Incorporate Existing Design Elements" coords="763, 342, 882, 393" shape="rect" guid="_8TxO8AstEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/Software Architect_E170FB33.html" relpath=",_oV4QUAqBEe-zQquRjvk7fw" alt="Arquitecto de Software" title="Arquitecto de Software" coords="30, 332, 952, 403" shape="rect" guid="_oV4QUAqBEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/roles/Architecture Reviewer_1E732B95.html" relpath=",_Hd9fMAsdEe-PSemMSezamg" alt="Architecture Reviewer" title="Architecture Reviewer" coords="40, 1116, 166, 1156" shape="rect" guid="_Hd9fMAsdEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_architecture_3A1FE81C.html" relpath=",_PcHmkAszEe-PSemMSezamg" alt="Review the Architecture" title="Review the Architecture" coords="186, 1116, 322, 1156" shape="rect" guid="_PcHmkAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/roles/Architecture Reviewer_1E732B95.html" relpath=",_Hd9fMAsdEe-PSemMSezamg" alt="Architecture Reviewer" title="Architecture Reviewer" coords="30, 1106, 352, 1166" shape="rect" guid="_Hd9fMAsdEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Deployment_Model_717C1197.html" relpath=",_J-KqAAqMEe-zQquRjvk7fw" alt="Modelo desplegado" title="Modelo desplegado" coords="201, 123, 303, 174" shape="rect" guid="_J-KqAAqMEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Implementation Model_A81C68ED.html" relpath=",_iQL70AsuEe-PSemMSezamg" alt="Implementation Model" title="Implementation Model" coords="201, 179, 303, 230" shape="rect" guid="_iQL70AsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="201, 235, 303, 302" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" relpath=",_ZNw5EAsuEe-PSemMSezamg" alt="Describe Distribution" title="Describe Distribution" coords="191, 113, 313, 312" shape="rect" guid="_ZNw5EAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Deployment_Model_717C1197.html" relpath=",_J-KqAAqMEe-zQquRjvk7fw" alt="Modelo desplegado" title="Modelo desplegado" coords="202, 433, 303, 484" shape="rect" guid="_J-KqAAqMEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="202, 489, 303, 556" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html" relpath=",_ZNw5EAsuEe-PSemMSezamg" alt="Describe Distribution" title="Describe Distribution" coords="192, 423, 313, 566" shape="rect" guid="_ZNw5EAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Capsule_23FD9C24.html" relpath=",_qoWecAsfEe-PSemMSezamg" alt="Capsule" title="Capsule" coords="340, 78, 452, 118" shape="rect" guid="_qoWecAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="340, 123, 452, 174" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="340, 179, 452, 246" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="340, 251, 452, 302" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Describe the Run-time Architecture_D8B706E7.html" relpath=",_Kp5nAAsuEe-PSemMSezamg" alt="Describe the Run-time Architecture" title="Describe the Run-time Architecture" coords="330, 68, 462, 312" shape="rect" guid="_Kp5nAAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="346, 433, 447, 500" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Describe the Run-time Architecture_D8B706E7.html" relpath=",_Kp5nAAsuEe-PSemMSezamg" alt="Describe the Run-time Architecture" title="Describe the Run-time Architecture" coords="336, 423, 457, 510" shape="rect" guid="_Kp5nAAsuEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Analysis_Class_840B7D59.html" relpath=",_yt21IAqfEe-zQquRjvk7fw" alt="An&aacute;lisis de clases" title="An&aacute;lisis de clases" coords="484, 11, 596, 62" shape="rect" guid="_yt21IAqfEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="484, 67, 596, 118" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="484, 123, 596, 174" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="484, 179, 596, 246" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="484, 251, 596, 302" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Elements_890E5AE0.html" relpath=",_Ue3vwAsoEe-PSemMSezamg" alt="Identify Design Elements" title="Identify Design Elements" coords="474, 1, 606, 312" shape="rect" guid="_Ue3vwAsoEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Analysis_Class_840B7D59.html" relpath=",_yt21IAqfEe-zQquRjvk7fw" alt="An&aacute;lisis de clases" title="An&aacute;lisis de clases" coords="626, 11, 738, 62" shape="rect" guid="_yt21IAqfEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="626, 67, 738, 118" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="626, 123, 738, 174" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="626, 179, 738, 246" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="626, 251, 738, 302" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Mechanisms_835256D6.html" relpath=",_Wwi0QAskEe-PSemMSezamg" alt="Identify Design Mechanisms" title="Identify Design Mechanisms" coords="616, 1, 748, 312" shape="rect" guid="_Wwi0QAskEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="632, 433, 733, 484" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="632, 489, 733, 540" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design Class_3C0E8D44.html" relpath=",_yjDEIAsfEe-PSemMSezamg" alt="Design Class" title="Design Class" coords="632, 545, 733, 596" shape="rect" guid="_yjDEIAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design Package_23B609B4.html" relpath=",_BZ2gUAsgEe-PSemMSezamg" alt="Design Package" title="Design Package" coords="632, 601, 733, 652" shape="rect" guid="_BZ2gUAsgEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design Subsystem_1C536B3.html" relpath=",_6l-_0AsfEe-PSemMSezamg" alt="Design Subsystem" title="Design Subsystem" coords="632, 657, 733, 708" shape="rect" guid="_6l-_0AsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="632, 713, 733, 780" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Identify Design Mechanisms_835256D6.html" relpath=",_Wwi0QAskEe-PSemMSezamg" alt="Identify Design Mechanisms" title="Identify Design Mechanisms" coords="622, 423, 743, 790" shape="rect" guid="_Wwi0QAskEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="772, 123, 873, 174" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="772, 179, 873, 230" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="772, 235, 873, 302" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Incorporate Existing Design Elements_F0CC3A24.html" relpath=",_8TxO8AstEe-PSemMSezamg" alt="Incorporate Existing Design Elements" title="Incorporate Existing Design Elements" coords="762, 113, 883, 312" shape="rect" guid="_8TxO8AstEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" relpath=",_AEV6oAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de modelo" title="Dise&ntilde;o de modelo" coords="772, 433, 873, 484" shape="rect" guid="_AEV6oAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Design Class_3C0E8D44.html" relpath=",_yjDEIAsfEe-PSemMSezamg" alt="Design Class" title="Design Class" coords="772, 489, 873, 540" shape="rect" guid="_yjDEIAsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design Package_23B609B4.html" relpath=",_BZ2gUAsgEe-PSemMSezamg" alt="Design Package" title="Design Package" coords="772, 545, 873, 596" shape="rect" guid="_BZ2gUAsgEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design Subsystem_1C536B3.html" relpath=",_6l-_0AsfEe-PSemMSezamg" alt="Design Subsystem" title="Design Subsystem" coords="772, 601, 873, 652" shape="rect" guid="_6l-_0AsfEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="772, 657, 873, 724" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/Incorporate Existing Design Elements_F0CC3A24.html" relpath=",_8TxO8AstEe-PSemMSezamg" alt="Incorporate Existing Design Elements" title="Incorporate Existing Design Elements" coords="762, 423, 883, 734" shape="rect" guid="_8TxO8AstEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html" relpath=",_qfqbwAqLEe-zQquRjvk7fw" alt="Dise&ntilde;o de Guidelines" title="Dise&ntilde;o de Guidelines" coords="198, 841, 310, 892" shape="rect" guid="_qfqbwAqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Risk List_400273A4.html" relpath=",_llaTkAsgEe-PSemMSezamg" alt="Risk List" title="Risk List" coords="198, 897, 310, 948" shape="rect" guid="_llaTkAsgEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/Software_Architecture_Document_680C215E.html" relpath=",_Wi1g8AqLEe-zQquRjvk7fw" alt="Documento de Arquitectura de software" title="Documento de Arquitectura de software" coords="198, 953, 310, 1020" shape="rect" guid="_Wi1g8AqLEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html" relpath=",_3Pf6gAqCEe-zQquRjvk7fw" alt="Especificaciones suplementarias" title="Especificaciones suplementarias" coords="198, 1025, 310, 1076" shape="rect" guid="_3Pf6gAqCEe-zQquRjvk7fw"></area>
+<area href="./../../Analysis_Design/tasks/review_the_architecture_3A1FE81C.html" relpath=",_PcHmkAszEe-PSemMSezamg" alt="Review the Architecture" title="Review the Architecture" coords="188, 831, 320, 1086" shape="rect" guid="_PcHmkAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/change_request_A7B19A71.html" relpath=",_Hi0vEAszEe-PSemMSezamg" alt="Change Request" title="Change Request" coords="225, 1196, 283, 1247" shape="rect" guid="_Hi0vEAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/workproducts/review_record_E296D06A.html" relpath=",_ZKGHwAszEe-PSemMSezamg" alt="Review Record" title="Review Record" coords="225, 1252, 283, 1303" shape="rect" guid="_ZKGHwAszEe-PSemMSezamg"></area>
+<area href="./../../Analysis_Design/tasks/review_the_architecture_3A1FE81C.html" relpath=",_PcHmkAszEe-PSemMSezamg" alt="Review the Architecture" title="Review the Architecture" coords="215, 1186, 293, 1313" shape="rect" guid="_PcHmkAszEe-PSemMSezamg"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "a096e494", parentId: "", relPath: ",_WJDjMAs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "1", prefix: "", name: "Describe Distribution", title: "Describe Distribution", url: "./../../Analysis_Design/tasks/Describe Distribution_D4D6417.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "51581fb5", parentId: "", relPath: ",_WJDjMQs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "2", prefix: "", name: "Describe the Run-time Architecture", title: "Describe the Run-time Architecture", url: "./../../Analysis_Design/tasks/Describe the Run-time Architecture_D8B706E7.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a8819a8d", parentId: "", relPath: ",_WJDjMgs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "3", prefix: "", name: "Identify Design Elements", title: "Identify Design Elements", url: "./../../Analysis_Design/tasks/Identify Design Elements_890E5AE0.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46e90587", parentId: "", relPath: ",_WJDjMws0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "4", prefix: "", name: "Identify Design Mechanisms", title: "Identify Design Mechanisms", url: "./../../Analysis_Design/tasks/Identify Design Mechanisms_835256D6.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true,true,true]},
+	
+		
+		
+{id: "9f2b2822", parentId: "", relPath: ",_WJDjNAs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "5", prefix: "", name: "Incorporate Existing Design Elements", title: "Incorporate Existing Design Elements", url: "./../../Analysis_Design/tasks/Incorporate Existing Design Elements_F0CC3A24.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ac7cf935", parentId: "", relPath: ",_XpYGcAs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "6", prefix: "", name: "review_the_architecture", title: "Review the Architecture", url: "./../../Analysis_Design/tasks/review_the_architecture_3A1FE81C.html", 
+	predecessors: "1,2,5,3,4", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Capsule</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="Capsule">
+<meta name="uma.presentationName" content="Capsule">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_wxIrgAsoEe-PSemMSezamg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Capsule</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">A capsule is a specific design pattern which represents an encapsulated thread of control in the system.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../Analysis_Design/workproducts/Capsule_23FD9C24.html" guid="_qoWecAsfEe-PSemMSezamg">Capsule</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3 class="reactive" style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Ports" name="Ports">Ports</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p class="reactive" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="justify">
+    <font size="3">Because ports are on the boundary of a capsule, they may be visible both from outside the capsule and
+    inside. When viewed from the outside, all ports present the same impenetrable object interface and cannot be
+    differentiated except by their identity and the role that they play in their protocol. However, when viewed from within
+    the capsule, we find that ports can be one of two kinds:<span>&nbsp;</span><b>relay
+    ports</b><span>&nbsp;</span>and<span>&nbsp;</span><b>end ports</b>. They differ in their internal connections—relay
+    ports are connected to sub-capsules while end ports are connected to the capsule’s state machine. Generally speaking,
+    relay ports serve to selectively export the "interfaces" of internal sub-capsules while end ports are boundary objects
+    for the state machine of a capsule. Both relay and end ports may appear on the boundary of the capsule and, as noted,
+    are indistinguishable from the outside.</font>
+</p>
+<h4 class="reactive" style="FONT-SIZE: medium; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <font size="3"><a id="Relay ports" name="Relay ports">Relay Ports</a><span>&nbsp;</span></font><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h4>
+<p class="reactive" style="MARGIN-LEFT: 0px" align="justify">
+    <font     style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'      size="3"><b>Relay ports</b><span>&nbsp;</span>are ports that simply pass all signals through. They provide an
+    "opening" in the encapsulation shell of a capsule that can be used by its sub-capsules to communicate with the outside
+    world without actually being exposed to the outside world (and vice versa). A relay port is connected, through a
+    connector, to a sub-capsule and is normally also connected from outside to some other "peer" capsule. They receive
+    signals coming from either side and simply relay it to the other side keeping the direction of signal flow. This is
+    achieved without delay or loss of information unless there is no connector attached on the other side. In the latter
+    case, the signal is lost.</font>
+</p>
+<p class="reactive" style="MARGIN-LEFT: 0px" align="justify">
+    Relay ports allow the direct (zero overhead) delegation of signals destined for a capsule to a sub-capsule without
+    requiring intervention by the state machine of the capsule. Relay ports can only appear on the boundary of a capsule
+    and, consequently, always have<span>&nbsp;</span><b>public</b><span>&nbsp;</span>visibility.
+</p>
+<h4 class="reactive" style="FONT-SIZE: medium; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <font size="3"><a id="End Ports" name="End Ports">End Ports</a><span>&nbsp;</span></font><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h4>
+<p class="reactive" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="justify">
+    <font size="3">To be useful, a chain of connectors must ultimately terminate in an end port that communicates with a
+    state machine. End ports are boundary objects for the state machines of capsules (although, as we shall see, some of
+    them also serve as boundary objects for capsules as well). End ports are the ultimate sources and sinks of all signals
+    sent by capsules. These signals are generated by the state machines of capsules. To send a signal, a state machine
+    invokes a send or call operation on one of its end ports. The signal is then relayed through the attached connector,
+    possibly passing through one or more relay ports and chained connectors, until it finally encounters another end port,
+    usually in a different capsule. Since signal-based communication can be asynchronous, an end port has a queue to hold
+    messages that have been received but not yet processed by the state machine (i.e., it acts as a mailbox). The reception
+    of the signal and the dispatching of the receiving state machine is performed by the state machine according to
+    standard UML semantics.</font>
+</p>
+<p class="reactive" style="MARGIN-LEFT: 0px" align="justify">
+    <font     style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'      size="3">Like relay ports, end ports may appear on the boundary of a capsule with public visibility. These ports are
+    called<span>&nbsp;</span><b>public end ports</b>. Such ports are boundary objects of both the state machine and the
+    containing capsule. However, end ports may also appear completely inside the capsule as part of its internal
+    implementation structure. These ports are used by the state machine to communicate with its sub-capsules or with
+    external<span>&nbsp;</span><b>implementation-support layers</b>. These internal end ports are
+    called<span>&nbsp;</span><b>protected end ports</b><span>&nbsp;</span>since they have protected visibility.</font>
+</p>
+<p class="reactive" style="MARGIN-LEFT: 0px" align="justify">
+    Note that the kind of port is totally determined by its internal connectivity and its visibility outside the capsule;
+    the various terms (relay port, public end port, private end port) are merely shorthand terminology. A public port that
+    is not connected internally may become either a relay port or an end port depending on how it is later connected, or it
+    may remain unconnected and be a sink for incoming signals.
+</p>
+<h4 class="reactive" style="FONT-SIZE: medium; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial"  align="justify">
+    <font size="3"><a id="Port Visibility" name="Port Visibility">Port Visibility</a><span>&nbsp;</span></font><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h4>
+<p class="reactive" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="justify">
+    <font size="3">From an external viewpoint, a port is a port; it is not possible or even desirable to determine whether
+    a port is a relay port or an end port. However, when the decomposition of a capsule is shown, we can see inside the
+    capsule and the end port/relay port distinction is indicated graphically as shown below.</font>
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

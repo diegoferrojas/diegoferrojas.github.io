@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Asociaci&oacute;n</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="Association">
+<meta name="uma.presentationName" content="Asociaci&oacute;n">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_2th6QAqgEe-zQquRjvk7fw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Asociaci&oacute;n</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">An association models a bi-directional semantic connection among instances.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../Analysis_Design/workproducts/Design_model_6B2A6C03.html" guid="_AEV6oAqLEe-zQquRjvk7fw">Diseño de modelo</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Associations" name="Associations">Associations</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif"     width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <a id="XE_boundary_class__associations,_general_guidelines" name="XE_boundary_class__associations,_general_guidelines"></a>Associations represent structural relationships between
+    objects of different classes; they represent connections between instances of two or more classes that exist for some
+    duration. Contrast this with transient links that, for example, exist only for the duration of an operation. These
+    latter situations can instead be modeled using collaborations, in which the links exist only in particular limited
+    contexts.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    <a id="XE_association__recommendations_for_using" name="XE_association__recommendations_for_using"></a>You can use
+    associations to show that objects know about another objects. Sometimes, objects must hold references to each other to
+    be able to interact, for example send messages to each other; thus, in some cases associations may follow from
+    interaction patterns in sequence diagrams or collaboration diagrams.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_association__naming" name="XE_association__naming"></a><a id="Names" name="Names">Association
+    Names<span>&nbsp;</span></a><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Most associations are binary (exist between exactly two classes), and are drawn as solid paths connecting pairs of
+    class symbols. An association may have either a name or the association<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Roles"><u><font size="4"     face="Times New Roman">roles</font></u></a><span>&nbsp;</span>may have names. Role names are preferable, as they convey
+    more information. In cases where only one of the roles can be named, roles are still preferable to association names so
+    long as the association is expected to be uni-directional, starting from the object to which the role name is
+    associated.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Associations are most often named during analysis, before sufficient information exists to properly name the roles.
+    Where used, association names should reflect the purpose of the relationship and be a verb phrase. The name of the
+    association is placed on, or adjacent to the association path.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In an ATM, the<span>&nbsp;</span><strong>Cash Drawer</strong><span>&nbsp;</span>provides the money that
+    the<span>&nbsp;</span><strong>Cash Dispenser<span>&nbsp;</span></strong>dispenses. In order for
+    the<span>&nbsp;</span><strong>Cash Dispenser<span>&nbsp;</span></strong>to be able to dispense funds, it must keep a
+    reference to the<span>&nbsp;</span><strong>Cash Drawer</strong><span>&nbsp;</span>object; similarly, if
+    the<span>&nbsp;</span><strong>Cash Drawer<span>&nbsp;</span></strong>runs out of funds,
+    the<span>&nbsp;</span><strong>Cash Dispenser</strong><span>&nbsp;</span>object must be notified, so
+    the<span>&nbsp;</span><strong>Cash Drawer</strong><span>&nbsp;</span>must keep a reference to
+    the<span>&nbsp;</span><strong>Cash Dispenser.</strong><span>&nbsp;</span>An association models this reference.
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img alt="an example association name"     src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc0.gif" width="415" height="93" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    An association between the<span>&nbsp;</span><strong>Cash Dispenser</strong><span>&nbsp;</span>and
+    the<span>&nbsp;</span><strong>Cash Drawer</strong>, named<span>&nbsp;</span><strong>supplies Value</strong>.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Association names, if poorly chosen, can be confusing and misleading. The following example illustrates good and bad
+    naming. In the first diagram, association names are used, and while they are syntactically correct (using verb
+    phrases), they do not convey much information about the relationship. In the second diagram, role names are used, and
+    these convey much more about the nature of the participation in the association.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img border="0" src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/md_asso3.gif" width="401"     height="471" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Examples of good and bad usage of association and role names
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_roles_on_associations__guidelines_for" name="XE_roles_on_associations__guidelines_for"></a><a id="Roles" name="Roles">Roles</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Each end of an association is a<span>&nbsp;</span><strong>role</strong><span>&nbsp;</span>specifying the face that a
+    class plays in the association<strong>.<span>&nbsp;</span></strong>Each role must have a name, and the role names
+    opposite a class must be unique. The role name should be a noun indicating the associated object's role in relation to
+    the associating object. A suitable role name for a<span>&nbsp;</span><strong>Teacher</strong><span>&nbsp;</span>in an
+    association with a<span>&nbsp;</span><strong>Course Section</strong><span>&nbsp;</span>would, for instance,
+    be<span>&nbsp;</span><strong>lecturer</strong>; avoid names like "<strong>has</strong>" and
+    "<strong>contains</strong>", as they add no information about what the relationships are between the classes.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Note that the use of association names and role names is mutually exclusive: one would not use both an association
+    name<span>&nbsp;</span><strong>and</strong><span>&nbsp;</span>a role name. Role names are preferable to association
+    names except in cases where insufficient information exists to name the role appropriately (as is often the case in
+    analysis; in design role names should always be used). Lack of a good role name suggests an incomplete or ill-formed
+    model.
+</p>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The role name is placed next to the end of the association line.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Consider the relationships between classes in an order entry system. A Customer can have two different kinds of
+    Addresses: an address to which bills are sent, and a number of addresses to which orders may be sent. As a result, we
+    have<span>&nbsp;</span><strong>two</strong><span>&nbsp;</span>associations between Customer and Address, as shown
+    below. The associations are labeled with the<span>&nbsp;</span><strong>role</strong><span>&nbsp;</span>the associated
+    address plays for the Customer.
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img alt="examples of associations" src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc1.gif"     width="349" height="342" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Associations between<span>&nbsp;</span><strong>Customer</strong>,<span>&nbsp;</span><strong>Address</strong>,
+    and<span>&nbsp;</span><strong>Order,<span>&nbsp;</span></strong>showing both role names and multiplicities
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_multiplicity_for_associations__guidelines_for" name="XE_multiplicity_for_associations__guidelines_for"></a><a id="XE_association__multiplicity" name="XE_association__multiplicity"></a><a id="Multiplicity" name="Multiplicity">Multiplicity</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    For each role you can specify the<span>&nbsp;</span><strong>multiplicity<span>&nbsp;</span></strong>of its class, how
+    many objects of the class can be associated with one object of the other class. Multiplicity is indicated by a text
+    expression on the role. The expression is a comma-separated list of integer ranges. A range is indicated by an integer
+    (the lower value), two dots, and an integer (the upper value); a single integer is a valid range, and the symbol '*'
+    indicates "many", that is, an unlimited number of objects. The symbol '*' by itself is equivalent to '0..*', that is,
+    any number including none; this is the default value. An optional scalar role has the multiplicity 0..1.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the previous example, multiplicities were shown for the associations between Order and Customer, and between
+    Customer and Address. Interpreting the diagram, it says that an Order must have an associated Customer (the
+    multiplicity is 1..1 at the Customer end), but a Customer may not have any Orders (the multiplicity is 0..* at the
+    Order end). Furthermore, a Customer has one billing address, but has one or more shipping address. To reduce notational
+    clutter, if multiplicities are omitted, they may be assumed to be 1..1.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_roles_on_associations__navigability_property" name="XE_roles_on_associations__navigability_property"></a><a id="XE_navigability_on_associations__guidelines_for" name="XE_navigability_on_associations__guidelines_for"></a><a id="XE_association__navigability" name="XE_association__navigability"></a><a id="Navigability" name="Navigability">Navigability</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The<span>&nbsp;</span><strong>navigability<span>&nbsp;</span></strong>property on a role indicates that it is possible
+    to navigate from a associating class to the target class using the association. This may be implemented in a number of
+    ways: by direct object references, by associative arrays, hash-tables, or any other implementation technique that
+    allows one object to reference another. Navigability is indicated by an open arrow, which is placed on the target end
+    of the association line next to the target class (the one being navigated to). The default value of the navigability
+    property is<span>&nbsp;</span><strong>true</strong>.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the order entry example, the association between the<span>&nbsp;</span><strong>Order</strong><span>&nbsp;</span>and
+    the<span>&nbsp;</span><strong>Customer</strong><span>&nbsp;</span>is navigable
+    in<span>&nbsp;</span><strong>both</strong><span>&nbsp;</span>directions:
+    an<span>&nbsp;</span><strong>Order</strong><span>&nbsp;</span>must know
+    which<span>&nbsp;</span><strong>Customer<span>&nbsp;</span></strong>placed
+    the<span>&nbsp;</span><strong>Order</strong>, and
+    the<span>&nbsp;</span><strong>Customer</strong><span>&nbsp;</span>must know
+    which<span>&nbsp;</span><strong>Orders</strong><span>&nbsp;</span>it has placed. When no arrowheads are shown, the
+    association is assumed to be navigable in both directions.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In the case of the associations
+    between<span>&nbsp;</span><strong>Customer<span>&nbsp;</span></strong>and<span>&nbsp;</span><strong>Address,<span>&nbsp;</span></strong>the
+    <span>&nbsp;</span><strong>Customer</strong><span>&nbsp;</span>must know
+    its<span>&nbsp;</span><strong>Addresses</strong>, but
+    the<span>&nbsp;</span><strong>Addresses<span>&nbsp;</span></strong>have no knowledge of
+    which<span>&nbsp;</span><strong>Customers</strong><span>&nbsp;</span>(or other classes, since many things have
+    addresses) are associated with the address. As a result, the navigability property of
+    the<span>&nbsp;</span><strong>Customer</strong><span>&nbsp;</span>end of the association is turned off, resulting in
+    the following diagram:
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img alt="examples of navigability on associations"     src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc2.gif" width="337" height="298" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Updated Order Entry System classes, showing navigability of associations.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_association__self-associations" name="XE_association__self-associations"></a><a id="Self-Associations" name="Self-Associations">Self-Associations</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img     border="0" alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26"     height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Sometimes, a class has an association to itself. This does not necessarily mean that an instance of that class has an
+    association to itself; more often, it means that one instance if the class has associations to other instances of the
+    same class. In the case of self-associations, role names are essential to distinguish the purpose for the association.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Consider the following self-association involving the class<span>&nbsp;</span><strong>Employee</strong>:
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial"  align="center">
+    <img alt="example of a self-association"     src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc4.gif" width="170" height="123" />
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    In this case, an employee may have an association to other employees; if they do, they are a manager, and the other
+    employees are members of their staff. The association is navigable in both directions since employees would know their
+    manager, and a manager knows her staff.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="Multiple Associations" name="Multiple Associations">Multiple Associations</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Drawing two associations between classes means objects are related twice; a given object can be linked to different
+    objects through each association. Each association is independent, and is distinguished by the role name. As shown
+    above, a Customer can have associations to different instances of the same class, each with different role names.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_roles_on_associations__order_property" name="XE_roles_on_associations__order_property"></a><a id="Ordered Roles" name="Ordered Roles">Ordering Roles</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif"     width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    When the multiplicity of an association is greater than one, the associated instances may
+    be<span>&nbsp;</span><strong>ordered</strong>.
+    The<span>&nbsp;</span><strong>ordered<span>&nbsp;</span></strong>property on a role indicates that the instances
+    participating in the association are ordered; by default they are an unordered set. The model does not
+    specify<span>&nbsp;</span><strong>how<span>&nbsp;</span></strong>the ordering is maintained; the operations that update
+    an ordered association must specify where the updated elements are inserted.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_links__guidelines_for" name="XE_links__guidelines_for"></a><a id="Links" name="Links">Links</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0"     alt="To top of page" src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The individual instances of an association are called<span>&nbsp;</span><strong>links;<span>&nbsp;</span></strong>a
+    link is thus a relationship among instances. Messages may be sent on links, and links may denote references and
+    aggregations between objects. See<span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/md_coldm.htm"><u><font size="4"     face="Times New Roman">Guidelines: Collaboration Diagram</font></u></a><span>&nbsp;</span>for more information.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_control_class__associations¸_recommendations_for_use_of" name="XE_control_class__associations¸_recommendations_for_use_of"></a><a id="XE_association__association_classes" name="XE_association__association_classes"></a><a id="Association Classes" name="Association Classes">Association
+    Classes</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    An<span>&nbsp;</span><strong>association class<span>&nbsp;</span></strong>is an association that also has class
+    properties (such as attributes, operations, and associations). It is shown by drawing a dashed line from the
+    association path to a class symbol that holds the attributes, operations, and associations for the association. The
+    attributes, operations, and associations apply to the original association itself. Each link in the association has the
+    indicated properties. The most common use of association classes is the reconciliation of many-to-many relationships
+    (see example below). In principle, the name of the association and class should be the same, but separate names are
+    permitted if necessary. A degenerate association class just contains attributes for the association; in this case you
+    can omit the association class name to de-emphasize its separateness.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Expanding the Employee example from before, consider the case where an Employee (a staff-person) works for another
+    Employee (a manager). The manager performs a periodic assessment of the staff member, reflecting their performance over
+    a specific time period.
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    The appraisal cannot be an attribute of either the manager or the staff member alone, but we can associate the
+    information with the association itself, as shown below:
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img alt="example of an association class"     src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc5.gif" width="192" height="214" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    The association class<span>&nbsp;</span><strong>Appraisal</strong><span>&nbsp;</span>captures information relating to
+    the association itself
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_association__qualified_associations" name="XE_association__qualified_associations"></a><a id="Qualified Associations" name="Qualified Associations">Qualified Associations</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Qualifiers are used to further restrict and define the set of instances that are associated to another instance; an
+    object and a qualifier value identify a unique set of objects across the association, forming
+    a<span>&nbsp;</span><strong>composite key</strong>. Qualification usually reduces the multiplicity of the opposite
+    role; the net multiplicity shows the number of instances of the related class associated with the first class and a
+    given qualifier value. Qualifiers are drawn as small boxes on the end of the association attached to the qualifying
+    class. They are part of the association, not the class. A qualifier box may contain multiple qualifier values; the
+    qualification is based on the entire list of values. A<span>&nbsp;</span><strong>qualified
+    association<span>&nbsp;</span></strong>is a variant form of association attribute.
+</p>
+<p class="exampleheading" style="FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 15px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    Example
+</p>
+<p class="example" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    Consider the following refinement of the association between<span>&nbsp;</span><strong>Line
+    Item</strong><span>&nbsp;</span>and<span>&nbsp;</span><strong>Product</strong>: a<span>&nbsp;</span><strong>Line
+    Item</strong><span>&nbsp;</span>has an association to
+    the<span>&nbsp;</span><strong>Product</strong><span>&nbsp;</span>which is ordered. Each Line Item refers to one and
+    only one Product, while a Product may be ordered on many Line Items. By qualifying the association with the
+    qualifier<span>&nbsp;</span><strong>ProductCode</strong><span>&nbsp;</span>we additionally indicate that each product
+    has a unique product code, and that<span>&nbsp;</span><strong>Line Items</strong><span>&nbsp;</span>are associated
+    with<span>&nbsp;</span><strong>Products</strong><span>&nbsp;</span>using this product code.
+</p>
+<p class="picturecenter" style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'  align="center">
+    <img alt="a qualified association" src="https://www.tesestec.com.br/pasteurjr/rup/process/modguide/images/assoc6.gif"     width="138" height="207" />
+</p>
+<p class="picturetext" style="FONT-SIZE: 12px; FONT-FAMILY: sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: center; MARGIN-LEFT: 70px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 50px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    The association between<span>&nbsp;</span><strong>Line
+    Item</strong><span>&nbsp;</span>and<span>&nbsp;</span><strong>Product<span>&nbsp;</span></strong>has the
+    qualifier<span>&nbsp;</span><strong>ProductCode</strong>.
+</p>
+<h3 style="FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">
+    <a id="XE_N-ary_associations__guidelines_for" name="XE_N-ary_associations__guidelines_for"></a><a id="XE_entity_class__associations¸_recommendations_for_use_of" name="XE_entity_class__associations¸_recommendations_for_use_of"></a><a id="XE_association__N-ary_associations" name="XE_association__N-ary_associations"></a><a id="N-ary Associations" name="N-ary Associations">N-ary
+    Associations</a><span>&nbsp;</span><a style="COLOR: rgb(0,51,153)" href="#Top"><img border="0" alt="To top of page"     src="https://www.tesestec.com.br/pasteurjr/rup/images/top.gif" width="26" height="20" /></a>
+</h3>
+<p style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; MARGIN-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial'>
+    An n-ary association is an association among three or more classes, where a single class can appear more than once.
+    N-ary associations are drawn as large diamonds with one association path to each participating class. This is the
+    traditional entity-relationship model symbol for an association. The binary form is drawn without the diamond for
+    greater compactness, since they are the bulk of associations in a real model. N-ary associations are fairly rare and
+    can also be modeled by promoting them to classes. N-ary associations can also have an association class; this is shown
+    by drawing a dashed line from the diamond to the class symbol. Roles may have role names but multiplicity is more
+    complicated and best specified by listing candidate keys. If given, the multiplicity represents the number of instances
+    corresponding to a given tuple of the other N-1 objects. Most uses of n-ary associations can be eliminated using
+    qualified associations or association classes. They can also be replaced by ordinary classes, although this loses the
+    constraint that only one link can occur for a given tuple of participating objects.<br />
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

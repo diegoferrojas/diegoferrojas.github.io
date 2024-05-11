@@ -1,0 +1,255 @@
+Info: CapabilityPattern:Define a Candidate Architecture: 808 mini seconds publishing element
+Info: CapabilityPattern:Define a Candidate Architecture: 423 mini seconds publishing process specific layout data
+Info: Task:Architectural Analysis: 78 mini seconds publishing element
+Info: TaskDescriptor:Architectural Analysis: 27 mini seconds publishing element
+Info: Role:Software Architect: 96 mini seconds publishing element
+Info: RoleDescriptor:Software Architect: 8 mini seconds publishing element
+Info: Artifact:Design_guidelines: 40 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 10 mini seconds publishing element
+Info: Artifact:Design_model: 42 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 16 mini seconds publishing element
+Info: Artifact:Software_Architecture_Document: 33 mini seconds publishing element
+Info: WorkProductDescriptor:Software_Architecture_Document: 11 mini seconds publishing element
+Info: Artifact:Supplementary_Specifications: 32 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 9 mini seconds publishing element
+Info: Artifact:Glosary: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Glosary: 7 mini seconds publishing element
+Info: Artifact:Use-Case_Model: 28 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Model: 12 mini seconds publishing element
+Info: Artifact:Reference_Architecture: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Reference_Architecture: 7 mini seconds publishing element
+Info: Artifact:Deployment_Model: 22 mini seconds publishing element
+Info: WorkProductDescriptor:Deployment_Model: 7 mini seconds publishing element
+Info: Artifact:Use-Case_Realization: 28 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Realization: 12 mini seconds publishing element
+Info: Task:Use-Case_Analysis: 24 mini seconds publishing element
+Info: TaskDescriptor:Use-Case_Analysis: 12 mini seconds publishing element
+Info: Role:Designer: 61 mini seconds publishing element
+Info: RoleDescriptor:Designer: 5 mini seconds publishing element
+Info: Artifact:Analysis_Class: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Analysis_Class: 8 mini seconds publishing element
+Info: Artifact:Analysis Model: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Analysis Model: 9 mini seconds publishing element
+Info: Artifact:Boundary Class: 16 mini seconds publishing element
+Info: WorkProductDescriptor:Boundary Class: 7 mini seconds publishing element
+Info: Artifact:Use Case: 20 mini seconds publishing element
+Info: WorkProductDescriptor:Use Case: 6 mini seconds publishing element
+Info: Artifact:Use-Case Modeling Guidelines: 14 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case Modeling Guidelines: 10 mini seconds publishing element
+Info: CapabilityPattern:Perform Architectural Synthesis: 718 mini seconds publishing element
+Info: CapabilityPattern:Perform Architectural Synthesis: 524 mini seconds publishing process specific layout data
+Info: TaskDescriptor:Architectural Analysis: 28 mini seconds publishing element
+Info: RoleDescriptor:Software Architect: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Software_Architecture_Document: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 7 mini seconds publishing element
+Info: WorkProductDescriptor:Glosary: 7 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Model: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Reference_Architecture: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Deployment_Model: 9 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Realization: 8 mini seconds publishing element
+Info: Task:Assess Viability of Architectural Proof-of-Concept: 34 mini seconds publishing element
+Info: TaskDescriptor:Assess Viability of Architectural Proof-of-Concept: 10 mini seconds publishing element
+Info: Artifact:Architectural Proof-of-Concept: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Architectural Proof-of-Concept: 7 mini seconds publishing element
+Info: Artifact:Business Case: 17 mini seconds publishing element
+Info: WorkProductDescriptor:Business Case: 9 mini seconds publishing element
+Info: Artifact:Risk List: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Risk List: 7 mini seconds publishing element
+Info: Artifact:Vision: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Vision: 8 mini seconds publishing element
+Info: Task:Construct Architectural Proof-of-Concept: 15 mini seconds publishing element
+Info: TaskDescriptor:Construct Architectural Proof-of-Concept: 6 mini seconds publishing element
+Info: Artifact:User-Interface Prototype: 20 mini seconds publishing element
+Info: WorkProductDescriptor:User-Interface Prototype: 6 mini seconds publishing element
+Info: CapabilityPattern:Analyze Behavior: 574 mini seconds publishing element
+Info: CapabilityPattern:Analyze Behavior: 398 mini seconds publishing process specific layout data
+Info: Task:Identify Design Elements: 20 mini seconds publishing element
+Info: TaskDescriptor:Identify Design Elements: 9 mini seconds publishing element
+Info: RoleDescriptor:Software Architect: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Analysis_Class: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Software_Architecture_Document: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 10 mini seconds publishing element
+Info: Artifact:Capsule: 30 mini seconds publishing element
+Info: WorkProductDescriptor:Capsule: 6 mini seconds publishing element
+Info: Artifact:Design Class: 33 mini seconds publishing element
+Info: WorkProductDescriptor:Design Class: 7 mini seconds publishing element
+Info: Artifact:Design Package: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Design Package: 7 mini seconds publishing element
+Info: Artifact:Design Subsystem: 26 mini seconds publishing element
+Info: WorkProductDescriptor:Design Subsystem: 10 mini seconds publishing element
+Info: Artifact:Event: 19 mini seconds publishing element
+Info: WorkProductDescriptor:Event: 6 mini seconds publishing element
+Info: Artifact:Interface: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Interface: 6 mini seconds publishing element
+Info: Artifact:Protocol: 22 mini seconds publishing element
+Info: WorkProductDescriptor:Protocol: 6 mini seconds publishing element
+Info: Artifact:Signal: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Signal: 5 mini seconds publishing element
+Info: TaskDescriptor:Use-Case_Analysis: 11 mini seconds publishing element
+Info: RoleDescriptor:Designer: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Analysis Model: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Boundary Class: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Glosary: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Model: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Realization: 9 mini seconds publishing element
+Info: WorkProductDescriptor:Use Case: 7 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case Modeling Guidelines: 5 mini seconds publishing element
+Info: Task:review_the_design: 41 mini seconds publishing element
+Info: TaskDescriptor:review_the_design: 6 mini seconds publishing element
+Info: Role:design_reviewer: 38 mini seconds publishing element
+Info: RoleDescriptor:design_reviewer: 6 mini seconds publishing element
+Info: Artifact:change_request: 25 mini seconds publishing element
+Info: WorkProductDescriptor:change_request: 7 mini seconds publishing element
+Info: Artifact:review_record: 21 mini seconds publishing element
+Info: WorkProductDescriptor:review_record: 6 mini seconds publishing element
+Info: CapabilityPattern:Refine the Architecture: 912 mini seconds publishing element
+Info: CapabilityPattern:Refine the Architecture: 783 mini seconds publishing process specific layout data
+Info: Task:Describe Distribution: 16 mini seconds publishing element
+Info: TaskDescriptor:Describe Distribution: 5 mini seconds publishing element
+Info: RoleDescriptor:Software Architect: 14 mini seconds publishing element
+Info: WorkProductDescriptor:Software_Architecture_Document: 19 mini seconds publishing element
+Info: Artifact:Implementation Model: 17 mini seconds publishing element
+Info: WorkProductDescriptor:Implementation Model: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Deployment_Model: 7 mini seconds publishing element
+Info: Task:Describe the Run-time Architecture: 15 mini seconds publishing element
+Info: TaskDescriptor:Describe the Run-time Architecture: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Capsule: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 16 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 9 mini seconds publishing element
+Info: TaskDescriptor:Identify Design Elements: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Analysis_Class: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Design Class: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Design Package: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Design Subsystem: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Event: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Interface: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Protocol: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Signal: 6 mini seconds publishing element
+Info: Task:Identify Design Mechanisms: 39 mini seconds publishing element
+Info: TaskDescriptor:Identify Design Mechanisms: 16 mini seconds publishing element
+Info: Task:Incorporate Existing Design Elements: 17 mini seconds publishing element
+Info: TaskDescriptor:Incorporate Existing Design Elements: 7 mini seconds publishing element
+Info: Task:review_the_architecture: 20 mini seconds publishing element
+Info: TaskDescriptor:review_the_architecture: 6 mini seconds publishing element
+Info: Role:Architecture Reviewer: 40 mini seconds publishing element
+Info: RoleDescriptor:Architecture Reviewer: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Risk List: 5 mini seconds publishing element
+Info: WorkProductDescriptor:change_request: 7 mini seconds publishing element
+Info: WorkProductDescriptor:review_record: 6 mini seconds publishing element
+Info: CapabilityPattern:Design Components: 767 mini seconds publishing element
+Info: CapabilityPattern:Design Components: 684 mini seconds publishing process specific layout data
+Info: Task:Capsule Design: 16 mini seconds publishing element
+Info: TaskDescriptor:Capsule Design: 6 mini seconds publishing element
+Info: Role:Capsule Designer: 33 mini seconds publishing element
+Info: RoleDescriptor:Capsule Designer: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Capsule: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Event: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Protocol: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Signal: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Design Class: 13 mini seconds publishing element
+Info: Task:Class Design: 24 mini seconds publishing element
+Info: TaskDescriptor:Class Design: 6 mini seconds publishing element
+Info: RoleDescriptor:Designer: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 9 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Realization: 10 mini seconds publishing element
+Info: Task:Design Test Classes and Packages: 23 mini seconds publishing element
+Info: TaskDescriptor:Design Test Classes and Packages: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Design Package: 6 mini seconds publishing element
+Info: Artifact:test_case: 17 mini seconds publishing element
+Info: WorkProductDescriptor:test_case: 6 mini seconds publishing element
+Info: Artifact:test_class: 13 mini seconds publishing element
+Info: WorkProductDescriptor:test_class: 5 mini seconds publishing element
+Info: Artifact:test_interface_specification: 13 mini seconds publishing element
+Info: WorkProductDescriptor:test_interface_specification: 5 mini seconds publishing element
+Info: TaskDescriptor:review_the_design: 6 mini seconds publishing element
+Info: RoleDescriptor:design_reviewer: 5 mini seconds publishing element
+Info: WorkProductDescriptor:change_request: 8 mini seconds publishing element
+Info: WorkProductDescriptor:review_record: 5 mini seconds publishing element
+Info: Task:Subsystem Design: 17 mini seconds publishing element
+Info: TaskDescriptor:Subsystem Design: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Design Subsystem: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Interface: 9 mini seconds publishing element
+Info: Task:Use-Case Design: 17 mini seconds publishing element
+Info: TaskDescriptor:Use-Case Design: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Use Case: 6 mini seconds publishing element
+Info: CapabilityPattern:Design the Database: 518 mini seconds publishing element
+Info: CapabilityPattern:Design the Database: 320 mini seconds publishing process specific layout data
+Info: TaskDescriptor:Class Design: 5 mini seconds publishing element
+Info: RoleDescriptor:Designer: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Design_guidelines: 7 mini seconds publishing element
+Info: WorkProductDescriptor:Design_model: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Supplementary_Specifications: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Event: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Use-Case_Realization: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Signal: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Design Class: 6 mini seconds publishing element
+Info: Task:database_design: 17 mini seconds publishing element
+Info: TaskDescriptor:database_design: 6 mini seconds publishing element
+Info: Role:Database Designer: 38 mini seconds publishing element
+Info: RoleDescriptor:Database Designer: 4 mini seconds publishing element
+Info: Artifact:Data model: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Data model: 7 mini seconds publishing element
+Info: WorkProductDescriptor:change_request: 9 mini seconds publishing element
+Info: TaskDescriptor:review_the_design: 5 mini seconds publishing element
+Info: RoleDescriptor:design_reviewer: 6 mini seconds publishing element
+Info: WorkProductDescriptor:review_record: 6 mini seconds publishing element
+Info: DeliveryProcess:Analysis Design (process): 362 mini seconds publishing element
+Info: DeliveryProcess:Analysis Design (process): 2838 mini seconds publishing process specific layout data
+Info: CapabilityPattern:Analyze Behavior: 503 mini seconds publishing element
+Info: CapabilityPattern:Define a Candidate Architecture: 514 mini seconds publishing element
+Info: CapabilityPattern:Design Components: 777 mini seconds publishing element
+Info: CapabilityPattern:Design the Database: 387 mini seconds publishing element
+Info: CapabilityPattern:Perform Architectural Synthesis: 497 mini seconds publishing element
+Info: CapabilityPattern:Refine the Architecture: 738 mini seconds publishing element
+Info: Guideline:Aggregation: 39 mini seconds publishing element
+Info: Guideline:Association: 57 mini seconds publishing element
+Info: Guideline:Class Diagram: 36 mini seconds publishing element
+Info: Guideline:Concurrency: 27 mini seconds publishing element
+Info: Guideline:Design Model: 16 mini seconds publishing element
+Info: Guideline:Generalization: 18 mini seconds publishing element
+Info: Guideline:Import Dependency in Design: 15 mini seconds publishing element
+Info: Guideline:Layering: 21 mini seconds publishing element
+Info: Guideline:Sequence Diagram: 20 mini seconds publishing element
+Info: Guideline:Statechart Diagram: 19 mini seconds publishing element
+Info: Guideline:Subscribe-Association: 18 mini seconds publishing element
+Info: Guideline:Software Architecture Document: 17 mini seconds publishing element
+Info: Guideline:Software Requirements Specification: 13 mini seconds publishing element
+Info: Guideline:Actor-Generalization: 16 mini seconds publishing element
+Info: Guideline:Communicate-Association: 13 mini seconds publishing element
+Info: Guideline:Extend-Relationship: 25 mini seconds publishing element
+Info: Guideline:Include-Relationship: 17 mini seconds publishing element
+Info: Guideline:Use-Case Diagram: 11 mini seconds publishing element
+Info: Guideline:Use-Case-Generalization: 17 mini seconds publishing element
+Info: Guideline:Use-case Model: 45 mini seconds publishing element
+Info: Guideline:Use-Case Realization: 13 mini seconds publishing element
+Info: Guideline:Analysis_Class: 45 mini seconds publishing element
+Info: Guideline:Boundary Class: 15 mini seconds publishing element
+Info: Guideline:Activity Diagram in the Use-Case Model: 14 mini seconds publishing element
+Info: Guideline:Use Case: 13 mini seconds publishing element
+Info: Guideline:Business Case: 14 mini seconds publishing element
+Info: Guideline:Risk List: 12 mini seconds publishing element
+Info: Guideline:User-Interface Prototype(General): 13 mini seconds publishing element
+Info: Guideline:Capsule: 17 mini seconds publishing element
+Info: Guideline:Building Web Applications with the UML: 21 mini seconds publishing element
+Info: Guideline:Design Class: 14 mini seconds publishing element
+Info: Guideline:Designing Classes in Visual Basic: 13 mini seconds publishing element
+Info: Guideline:Testing and Evaluating Classes: 15 mini seconds publishing element
+Info: Guideline:Design Package: 15 mini seconds publishing element
+Info: Guideline:Design Subsystem: 15 mini seconds publishing element
+Info: Guideline:Interface: 14 mini seconds publishing element
+Info: Guideline:Component Diagram: 12 mini seconds publishing element
+Info: Guideline:Implementation Model: 14 mini seconds publishing element
+Info: Guideline:Import Dependency in Implementation: 12 mini seconds publishing element
+Info: Guideline:test_case: 14 mini seconds publishing element
+Info: Guideline:unit_test: 15 mini seconds publishing element
+Info: CustomCategory:Proceso: 14 mini seconds publishing element
+Info: CustomCategory:Roles: 10 mini seconds publishing element
+Info: CustomCategory:Tareas: 12 mini seconds publishing element
+Info: : Publishing time: 0 minutes 20 seconds

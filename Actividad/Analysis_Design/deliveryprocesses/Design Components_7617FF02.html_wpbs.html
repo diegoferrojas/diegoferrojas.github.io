@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Design Components</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="Design Components">
+<meta name="uma.presentationName" content="Design Components">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_M3e_YAwfEe-e9-FHsoqqEg&path=_M3e_YAwfEe-e9-FHsoqqEg,_RDzO0QwfEe-e9-FHsoqqEg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_RDzO0QwfEe-e9-FHsoqqEg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Design Components</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">Extends: <a href="./../../Analysis_Design/capabilitypatterns/Design Components_858A11F5.html" guid="_muIfEQs0Ee-PSemMSezamg">Design Components</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../Analysis_Design/deliveryprocesses/Design Components_7617FF02.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WBS" href="./../../Analysis_Design/deliveryprocesses/Design Components_7617FF02.html_wbs.html"><span style="white-space:nowrap;">Work Breakdown Structure</span></a></td><td width="1"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../Analysis_Design/deliveryprocesses/Design Components_7617FF02.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Product Usage</span></td><td width="21"><img src="./../../images/tab_end-a.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="6"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="1"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Work Product Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Product Breakdown", summary: "Work Product Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["model_info", "Model Info"],
+["entry_state", "Entry State"],
+["exit_state", "Exit State"],
+["deliverable", "Deliverable"],
+["type", "Type"],
+["is_planned", "Planned"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_optional", "Optional"]],
+rows: [
+			
+{id: "ac02c8ba", parentId: "", relPath: ",_twOo1gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Capsule", title: "Capsule", url: "./../../Analysis_Design/workproducts/Capsule_23FD9C24.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "4651caea", parentId: "", relPath: ",_twPP9As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "change_request", title: "Change Request", url: "./../../Analysis_Design/workproducts/change_request_A7B19A71.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "aba62232", parentId: "", relPath: ",_twPP4gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Design Class", title: "Design Class", url: "./../../Analysis_Design/workproducts/Design Class_3C0E8D44.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "f98fe56d", parentId: "", relPath: ",_twPP7As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Design Package", title: "Design Package", url: "./../../Analysis_Design/workproducts/Design Package_23B609B4.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "9ea2b603", parentId: "", relPath: ",_twP28Qs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Design Subsystem", title: "Design Subsystem", url: "./../../Analysis_Design/workproducts/Design Subsystem_1C536B3.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "a165c2ca", parentId: "", relPath: ",_twPP5As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Design_guidelines", title: "Diseño de Guidelines", url: "./../../Analysis_Design/workproducts/Design_guidelines_2FDE899D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "f8aa2e36", parentId: "", relPath: ",_twPP5gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Design_model", title: "Diseño de modelo", url: "./../../Analysis_Design/workproducts/Design_model_6B2A6C03.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "ac726836", parentId: "", relPath: ",_twPP6As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Supplementary_Specifications", title: "Especificaciones suplementarias", url: "./../../Analysis_Design/workproducts/Supplementary_Specifications_C7445C8B.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "a602de0f", parentId: "", relPath: ",_twOo2As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Event", title: "Event", url: "./../../Analysis_Design/workproducts/Event_1E53D346.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "ada75487", parentId: "", relPath: ",_twP28ws0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Interface", title: "Interface", url: "./../../Analysis_Design/workproducts/Interface_63DAC3B0.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "acc6f9a5", parentId: "", relPath: ",_twOo2gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Protocol", title: "Protocol", url: "./../../Analysis_Design/workproducts/Protocol_162F669D.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "4ddcdf62", parentId: "", relPath: ",_twPP6gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Use-Case_Realization", title: "Realización de casos de uso", url: "./../../Analysis_Design/workproducts/Use-Case_Realization_CCB217D6.html", 
+	predecessors: "", info: "Mandatory Input, Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "9cecc658", parentId: "", relPath: ",_twPP9gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "review_record", title: "Review Record", url: "./../../Analysis_Design/workproducts/review_record_E296D06A.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "a3e0e1d6", parentId: "", relPath: ",_twPP4As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Signal", title: "Signal", url: "./../../Analysis_Design/workproducts/Signal_DAA12F00.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "acbae9d0", parentId: "", relPath: ",_twPP7gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "test_case", title: "Test Case", url: "./../../Analysis_Design/workproducts/test_case_D9D0C2F0.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "a75b2c22", parentId: "", relPath: ",_twPP8As0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "test_class", title: "Test Class", url: "./../../Analysis_Design/workproducts/test_class_B6DCBB45.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "a157439e", parentId: "", relPath: ",_twPP8gs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "test_interface_specification", title: "Test Interface Specification", url: "./../../Analysis_Design/workproducts/test_interface_specification_EC653C42.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+			
+{id: "f5f76163", parentId: "", relPath: ",_twP29Qs0Ee-PSemMSezamg", isSuppressed: "", indentSize: 0, hasChildren:false, 
+	index: "", prefix: "", name: "Use Case", title: "Use Case", url: "./../../Analysis_Design/workproducts/Use Case_C0CAA954.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>
