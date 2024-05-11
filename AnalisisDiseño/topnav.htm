@@ -25,6 +25,22 @@ var feedback_url= 'http://www.published_website.com/feedback';
 .topbardivider { 
 	 background-color: #d0d0d0 
  }
+	/* Estilos para el botón */
+  .boton {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Efecto al pasar el ratón sobre el botón */
+  .boton:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
 </style>
 </head>
 <body marginheight="0" marginwidth="0">
@@ -39,7 +55,7 @@ var feedback_url= 'http://www.published_website.com/feedback';
 </table>
 	<div style="text-align: center; margin-top: 20px;">
 	<!-- Corregido el enlace para apuntar correctamente a la página de inicio -->
-	 <button onclick="openInNewTab('https://diegoferrojas.github.io')">Ir al inicio</button>
+	 <button class="boton" onclick="openInNewTab('https://diegoferrojas.github.io')">Ir al inicio</button>
 	</div>
 </td>
 </tr>
