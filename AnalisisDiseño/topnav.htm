@@ -8,9 +8,10 @@
 var feedback_url= 'http://www.published_website.com/feedback';
 </script>
 	<script>
-        function regresarAlIndice() {
-            window.location.replace("https://diegoferrojas.github.io");
-        }
+        function openInNewTab(url) {
+      var win = window.open(url, '_blank');
+      win.focus();
+    }
     </script>
 <style type="text/css">
 
@@ -38,7 +39,7 @@ var feedback_url= 'http://www.published_website.com/feedback';
 </table>
 	<div style="text-align: center; margin-top: 20px;">
 	<!-- Corregido el enlace para apuntar correctamente a la página de inicio -->
-	<li><a href="#" onclick="regresarAlIndice()">Regresar al Índice</a></li>
+	 <button onclick="openInNewTab('https://diegoferrojas.github.io')">Regresar al inicio</button>
 	</div>
 </td>
 </tr>
